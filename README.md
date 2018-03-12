@@ -163,8 +163,8 @@ Web Audio APIを簡単に扱うためのモジュール。
 #### Puressure.js
 一部端末で感圧センサの数値を利用できるモジュール。
 
-#### Foxholder
-フォームがActiveな場合それを強調するためのアニメーションを追加したりするためのモジュール。 [demo](http://foxholder.fox-hover.co.uk/)。
+#### [Foxholder](http://foxholder.fox-hover.co.uk/)
+フォームがActiveな場合それを強調するためのアニメーションを追加したりするためのモジュール。
 
 ### Node_Modules
 #### ESLint
@@ -241,6 +241,9 @@ MarkdownをPDF化したり、自動で目次生成をしたりする。つよい
 Gitを共有し強化するためのWebサービス。
 IssueやPullRequestが良い。
 学生会員であればPrivateリポジトリ作り放題。
+
+#### [ghi](https://github.com/stephencelis/ghi)
+GitHubのIssueをCLIで操作できるようにするためのツール。
 
 #### GitBuckets
 Privateリポジトリが作り放題なGit共有・強化Webサービス。
