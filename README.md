@@ -162,8 +162,8 @@ Web Audio APIを簡単に扱うためのモジュール。
 #### Puressure.js
 一部端末で感圧センサの数値を利用できるモジュール。
 
-#### [Foxholder](http://foxholder.fox-hover.co.uk/)
-フォームがActiveな場合それを強調するためのアニメーションを追加したりするためのモジュール。
+#### Foxholder
+フォームがActiveな場合それを強調するためのアニメーションを追加したりするためのモジュール。 [demo](http://foxholder.fox-hover.co.uk/)。
 
 ### Node_Modules
 #### babel
