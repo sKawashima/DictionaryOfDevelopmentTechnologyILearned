@@ -115,41 +115,41 @@ Reveal.jsにて利用した。
 極論、このツールを持ち入り始めるとソースコード全てがメタ言語的扱いになる。
 様々なモジュールを有効活用したり、ファイル容量を圧縮するために用いる。
 
-#### Webpack
-大正義。
-やたら流行っている。
-`webpack-dev-server`がモジュールバンドラーの役割をこなすことも有り、非常に便利。
-最近その光景である`webpack-server`が登場しつつある。
-
 #### Parcel
 突如出現し新時代を垣間見せた化物。
 設定ファイルを必要せず、自動的にバンドルするファイルを選出する。
 ただし、ファイル名は自動で複雑な文字列になるため、複数ページが有りアドレスを考慮するサイトでは非推奨。
 Adobeの人達が作っている。
 
+#### Webpack
+大正義。
+やたら流行っている。
+`webpack-dev-server`がモジュールバンドラーの役割をこなすことも有り、非常に便利。
+最近その光景である`webpack-server`が登場しつつある。
+
 ### Framework
 - [まだまだ進化中！JavaScriptフレームワークのトレンド | geechs magazine](https://geechs-magazine.com/tag/tech/20170427_1)
-
-#### jQuery
-古くからある省略記法的フレームワーク。
-`$`を用いて何でも書けるようになる。
-ただし、モダン環境（モジュールバンドラなどを用いる環境）では`import`の仕方に注意が必要。
-
-#### Vue.js
-簡単に入力変数と表示を連結させることができるMVVMフレームワーク。
-パーツごとにMarkup, Style, Scriptの全てを記述してコンポーネント化する`Vue Components`や、
-SPA（Single-Page App）開発のためにアドレスと表示を連結させる`Vue Router`がある。
 
 #### Nuxt
 Vue.jsを拡張させたフレームワーク。
 Webpackが必須。
 `Vue Router`をファイルの配置に伴い自動生成したり、サーバーレスな静的ファイルの書き出しを行えたり、サーバーサイドを記述できたりする。
 
+#### Vue.js
+簡単に入力変数と表示を連結させることができるMVVMフレームワーク。
+パーツごとにMarkup, Style, Scriptの全てを記述してコンポーネント化する`Vue Components`や、
+SPA（Single-Page App）開発のためにアドレスと表示を連結させる`Vue Router`がある。
+
 #### Hyperapp
 簡単に入力変数と表示を連結させることができるMVVMフレームワーク。
 ただし、Vue.jsと違い非常に機能がシンプルで軽量。
 また、記述するコードも非常に少なく済む。
 - [2018 年は Hyperapp の年だ - Qiita](https://qiita.com/JorgeBucaran/items/c48446babe0627e25ee6)
+
+#### jQuery
+古くからある省略記法的フレームワーク。
+`$`を用いて何でも書けるようになる。
+ただし、モダン環境（モジュールバンドラなどを用いる環境）では`import`の仕方に注意が必要。
 
 #### Reveal.js
 HTMLやMarkdownでプレゼンテーションをするためのフレームワーク。
@@ -167,13 +167,13 @@ Web Audio APIを簡単に扱うためのモジュール。
 フォームがActiveな場合それを強調するためのアニメーションを追加したりするためのモジュール。 [demo](http://foxholder.fox-hover.co.uk/)。
 
 ### Node_Modules
-#### babel
-Javascriptの変換機。
-ちゃんと調べて使ったことはない。
-
 #### ESLint
 コードの静的評価ができる。
 きれいにコードを書くために叱ってくれる。
+
+#### babel
+Javascriptの変換機。
+ちゃんと調べて使ったことはない。
 
 ## Other
 - [Can I use... Support tables for HTML5, CSS3, etc](https://caniuse.com/)
@@ -214,19 +214,6 @@ Wordpressに比べて拡張性がものっそい広いCMS。
 Javascript記法で書けるサーバー言語。
 データベースはおもにMongoDBが良く用いられる。
 
-# Version Management
-#### Git
-王道バージョン管理ツール。
-試し開発のためにフォルダをコピーとか、開発履歴確認とかに用いる。
-
-#### GitHub
-Gitを共有し強化するためのWebサービス。
-IssueやPullRequestが良い。
-学生会員であればPrivateリポジトリ作り放題。
-
-#### GitBuckets
-Privateリポジトリが作り放題なGit共有・強化Webサービス。
-
 # Document
 そのものに機能的な要素がないテキストベースドキュメント。
 #### Markdown
@@ -244,6 +231,23 @@ LaTeXのフロントエンド。
 
 #### Pandoc
 MarkdownをPDF化したり、自動で目次生成をしたりする。つよい。
+
+# Version Management
+#### Git
+王道バージョン管理ツール。
+試し開発のためにフォルダをコピーとか、開発履歴確認とかに用いる。
+
+#### GitHub
+Gitを共有し強化するためのWebサービス。
+IssueやPullRequestが良い。
+学生会員であればPrivateリポジトリ作り放題。
+
+#### GitBuckets
+Privateリポジトリが作り放題なGit共有・強化Webサービス。
+
+# Other Programming Language / Framework
+
+# Code Test Service
 
 # Shell
 #### fish
