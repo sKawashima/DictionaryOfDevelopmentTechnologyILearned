@@ -7,14 +7,14 @@
 - [ ] とりあえず思いつくだけ書き出す <-ｲﾏｺｺ
 - [ ] 書き出した内容を整理する
 
----
-# Common Terms
+### Common Terms
 #### Base
 基本的な言語。
 
 #### Meta
 コンパイルすることでBase Languageを書き出して利用する言語。
 
+---
 # Web front-end
 ## Hyper Text Markup Language
 ### Base
