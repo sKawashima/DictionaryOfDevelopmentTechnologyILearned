@@ -154,13 +154,16 @@ Webpackが必須。
 HTMLやMarkdownでプレゼンテーションをするためのフレームワーク。
 プレゼン資料制作の大幅な時間短縮が見込める。
 
-### Modules(simple)
+### Modules / Package(simple)
 #### Tone.js
 Web Audio APIを簡単に扱うためのモジュール。
 簡単便利ありがとう。
 
 #### Puressure.js
 一部端末で感圧センサの数値を利用できるモジュール。
+
+#### [Foxholder](http://foxholder.fox-hover.co.uk/)
+フォームがActiveな場合それを強調するためのアニメーションを追加したりするためのモジュール。
 
 ### Node_Modules
 #### babel
