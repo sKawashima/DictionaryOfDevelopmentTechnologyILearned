@@ -1,18 +1,27 @@
-# sKawashimaの開発技術辞書
-自分が調べた技術関連の情報をまとめます。
+# sKawashimaの開発技術学習目録 ![maker](https://img.shields.io/badge/maker-sKawashima-4e1a68.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/sKawashima/DictionaryOfDevelopmentTechnologyILearned.svg)
 
+
+自分が調べた技術関連の情報をまとめます。
+各ジャンルごとに、使用頻度が高いものを上に表記します。
+
+---
 # Web front-end
 ## Hyper Text Markup Language
 ### Base
-#### HTML
+#### HTML5
+最低限必要なファイル形式。HTML5になってから様々なタグが追加され、同時にタグの推奨する省略規約が変更になった。
 
 ### Meta
-#### Haml
 #### Pug(Jade)
+Node.js系のHTMLメタ言語。インデントでタグの階層を表記する。
+
+#### Haml
+Ruby系のHTMLメタ言語。インデントでタグの階層を表記し、タグには`%`をつけて表記する。Rubyのコードを埋め込むことが出来る。
 
 ## Style Sheet
 ### Base
-#### CSS
+#### CSS3
+スタイルシートの最も基本的記法。
 
 ### Meta
 #### Sass
