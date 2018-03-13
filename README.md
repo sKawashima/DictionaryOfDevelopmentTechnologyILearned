@@ -120,6 +120,8 @@ Reveal.jsにて利用した。
 設定ファイルを必要せず、自動的にバンドルするファイルを選出する。
 ただし、ファイル名は自動で複雑な文字列になるため、複数ページが有りアドレスを考慮するサイトでは非推奨。
 Adobeの人達が作っている。
+- [webpack時代の終わりとparcel時代のはじまり - Qiita](https://qiita.com/bitrinjani/items/b08876e0a2618745f54a)
+- [parcel魅力的です - Qiita](https://qiita.com/damacchi/items/f595eef8dcbce45822ee)
 
 #### Webpack
 大正義。
