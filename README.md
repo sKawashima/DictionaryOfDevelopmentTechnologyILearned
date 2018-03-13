@@ -16,6 +16,7 @@
 コンパイルすることでBase Languageを書き出して利用する言語。
 
 ---
+
 # Web front-end
 ## Hyper Text Markup Language
 ### Base
@@ -225,7 +226,7 @@ RailsをNode.jsベースで再現したようなフレームワーク。
 MVCベースではあるが、ModelとControllerを`api`としてまとめて管理している特徴がある。
 ただし、Gruntを使ってたり更新頻度が低かったりとあんまりメジャーになりそうな雰囲気は少ない。
 
-# Web Deploy Service
+## Web Deploy Service
 
 # Document
 そのものに機能的な要素がないテキストベースドキュメント。
@@ -295,3 +296,7 @@ GitHub製テキストエディタ。
 出現直後からやたら評価されたテキストエディタ。
 カスタマイズなしでなんでもできる。
 ただし、行間が狭い気がする。
+
+---
+## 参考
+- [gulp 用プラグイン gulp-concat でファイルを一つにまとめる方法 | phiary](http://phiary.me/gulp-concat-file/)
