@@ -17,7 +17,12 @@ Node.js系の直接コードに影響しないモジュールを自動で実行�
 
 ##### [gulp-concat](https://www.npmjs.com/package/gulp-concat)
 ファイルを単純に結合する。
-`src`して読み込んだファイル群を`.pipe(concat(output.file))`するだけで結合できる。
+読み込んだファイル群を`concat(output.file)`するだけで結合できる。
+このリポジトリでも乱用中。
+
+##### [gulp-markdown-toc](https://www.npmjs.com/package/gulp-markdown-toc)
+Markdownにおける目次`TOC`を生成する。
+`toc()`するとMarkdown内の指定タグ部分に目次が生成される。
 このリポジトリでも乱用中。
 
 #### Grunt
