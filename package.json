@@ -1,0 +1,13 @@
+{
+  "name": "DictionaryOfDevelopmentTechnologyILearned",
+  "version": "1.0.0",
+  "main": "none",
+  "repository": "https://github.com/sKawashima/DictionaryOfDevelopmentTechnologyILearned.git",
+  "author": "Shota Kawashima <bysk.333@gmail.com>",
+  "license": "Private",
+  "private": false,
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
+  }
+}
