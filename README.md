@@ -165,6 +165,10 @@ Web Audio APIを簡単に扱うためのモジュール。
 #### Puressure.js
 一部端末で感圧センサの数値を利用できるモジュール。
 
+#### [CodeMirror](https://codemirror.net/)
+`textarea`をコードエディタぽくするライブラリ。
+180314現在使ったことがない。
+
 #### [Foxholder](http://foxholder.fox-hover.co.uk/)
 フォームがActiveな場合それを強調するためのアニメーションを追加したりするためのモジュール。
 
