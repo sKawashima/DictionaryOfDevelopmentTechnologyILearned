@@ -214,6 +214,10 @@ Wordpressに比べて拡張性がものっそい広いCMS。
 Javascript記法で書けるサーバー言語。
 データベースはおもにMongoDBが良く用いられる。
 
+### [Sails](https://sailsjs.com/)
+RailsをNode.jsベースで再現したようなフレームワーク。
+MVCベースではあるが、ModelとControllerを`api`としてまとめて管理している特徴がある。
+
 # Document
 そのものに機能的な要素がないテキストベースドキュメント。
 #### Markdown
