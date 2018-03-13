@@ -217,6 +217,7 @@ Javascript記法で書けるサーバー言語。
 ### [Sails](https://sailsjs.com/)
 RailsをNode.jsベースで再現したようなフレームワーク。
 MVCベースではあるが、ModelとControllerを`api`としてまとめて管理している特徴がある。
+ただし、Gruntを使ってたり更新頻度が低かったりとあんまりメジャーになりそうな雰囲気は少ない。
 
 # Document
 そのものに機能的な要素がないテキストベースドキュメント。
