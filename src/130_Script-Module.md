@@ -15,6 +15,11 @@ Node.js系の直接コードに影響しないモジュールを自動で実行�
 シンプルにコードを選出（`src`）し、モジュールを通す（`.pipe`）することができる。
 はじめはおすすめ。
 
+##### [gulp-concat](https://www.npmjs.com/package/gulp-concat)
+ファイルを単純に結合する。
+`src`して読み込んだファイル群を`.pipe(concat(output.file))`するだけで結合できる。
+このリポジトリでも乱用中。
+
 #### Grunt
 古い。
 Gulpよりも遅い。
