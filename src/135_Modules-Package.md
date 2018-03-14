@@ -15,6 +15,12 @@ Web Audio APIを簡単に扱うためのモジュール。
 
 #### [marked](https://www.npmjs.com/package/marked)
 MarkdownをHTMLに変換するための便利マン。
+- 以下の[Highlight.js](#Highlightjs)との連携でハマった際は[こう](https://github.com/sKawashima/markdown-editor_180314/pull/4)対処した。
+
+#### [Highlight.js](https://highlightjs.org/)
+コードにカラーハイライトシンタックスを与えるライブラリ。
+JS側がクラスを付加し、CSSでスタイルを指定する。
+初期からどっさりCSSテンプレートが含まれているので、そのまま使うなり編集して使うなり自由度が高い。
 
 #### [markdown](https://www.npmjs.com/package/markdown)
 上と同じだと思って使ってみたら、importが面倒な上表が描写できない。
