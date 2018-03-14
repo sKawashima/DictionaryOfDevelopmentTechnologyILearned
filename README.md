@@ -71,6 +71,7 @@
       - [CodeMirror](#codemirror)
       - [Foxholder](#foxholder)
       - [marked](#marked)
+      - [Highlight.js](#highlightjs)
       - [markdown](#markdown)
     + [Node_Modules](#node_modules)
       - [ESLint](#eslint)
@@ -86,10 +87,11 @@
   * [Node.js](#nodejs)
     + [Sails](#sails)
   * [Web Deploy Service](#web-deploy-service)
+- [Other Programming Language / Framework](#other-programming-language--framework)
 - [Document](#document)
   * [Useful](#useful)
       - [Markdown](#markdown)
-      - [Pandoc](#pandoc)
+        * [Pandoc](#pandoc)
   * [Article, Magazine](#article-magazine)
       - [ReVIEW](#review)
       - [LaTeX](#latex)
@@ -101,16 +103,14 @@
       - [GitHub](#github)
         * [ghi](#ghi)
       - [GitBuckets](#gitbuckets)
-- [Other Programming Language / Framework](#other-programming-language--framework)
-- [Code Test Service](#code-test-service)
-- [Shell](#shell)
-      - [fish](#fish)
-      - [bash](#bash)
-      - [zsh](#zsh)
 - [Text Editor](#text-editor)
       - [Atom](#atom)
       - [Sublime Text](#sublime-text)
       - [VSCode](#vscode)
+- [Shell](#shell)
+      - [fish](#fish)
+      - [bash](#bash)
+      - [zsh](#zsh)
 
 <!-- tocstop -->
 
@@ -280,6 +280,12 @@ Web Audio APIを簡単に扱うためのモジュール。
 
 #### [marked](https://www.npmjs.com/package/marked)
 MarkdownをHTMLに変換するための便利マン。
+- 以下の[Highlight.js](#Highlightjs)との連携でハマった際は[こう](https://github.com/sKawashima/markdown-editor_180314/pull/4)対処した。
+
+#### [Highlight.js](https://highlightjs.org/)
+コードにカラーハイライトシンタックスを与えるライブラリ。
+JS側がクラスを付加し、CSSでスタイルを指定する。
+初期からどっさりCSSテンプレートが含まれているので、そのまま使うなり編集して使うなり自由度が高い。
 
 #### [markdown](https://www.npmjs.com/package/markdown)
 上と同じだと思って使ってみたら、importが面倒な上表が描写できない。
@@ -340,6 +346,8 @@ MVCベースではあるが、ModelとControllerを`api`としてまとめて管
 
 ## Web Deploy Service
 
+# Other Programming Language / Framework
+
 # Document
 そのものに機能的な要素がないテキストベースドキュメント。
 
@@ -349,7 +357,7 @@ MVCベースではあるが、ModelとControllerを`api`としてまとめて管
 様々な書き出しのためのツールが存在する。
 - [GugoDoc - 複数ファイルをサポートしたMarkdown to HTMLジェネレータ MOONGIFT](https://www.moongift.jp/2014/02/gugodoc-%E8%A4%87%E6%95%B0%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E3%81%97%E3%81%9Fmarkdown-to-html%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%AC%E3%83%BC%E3%82%BF/)
 
-#### Pandoc
+##### Pandoc
 MarkdownをPDF化したり、自動で目次生成をしたりする。
 つよい。
 
@@ -381,25 +389,11 @@ IssueやPullRequestが良い。
 
 ##### [ghi](https://github.com/stephencelis/ghi)
 GitHubのIssueをCLIで操作できるようにするためのツール。
+どちゃくそべんり。
 
 #### GitBuckets
 Privateリポジトリが作り放題なGit共有・強化Webサービス。
 
-# Other Programming Language / Framework
-
-# Code Test Service
-
-# Shell
-#### fish
-あたらしくTabがつよい。
-ただし、あまり強みは利用できてない（慣れてない）。
-
-#### bash
-Mac標準の`Basic Shell`。
-
-#### zsh
-インターンで知った強いShell。
-ただし、使おうとしたらより新しいfishを見つけてしまい二度と触ることがなさそう。
 
 # Text Editor
 宗教。
@@ -418,6 +412,19 @@ GitHub製テキストエディタ。
 出現直後からやたら評価されたテキストエディタ。
 カスタマイズなしでなんでもできる。
 ただし、行間が狭い気がする。
+
+# Shell
+#### fish
+あたらしくTabがつよい。
+ただし、あまり強みは利用できてない（慣れてない）。
+
+#### bash
+Mac標準の`Basic Shell`。
+
+#### zsh
+インターンで知った強いShell。
+ただし、使おうとしたらより新しいfishを見つけてしまい二度と触ることがなさそう。
+
 
 ---
 © 2018 sKawashima
