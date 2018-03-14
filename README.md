@@ -288,7 +288,7 @@ JS側がクラスを付加し、CSSでスタイルを指定する。
 初期からどっさりCSSテンプレートが含まれているので、そのまま使うなり編集して使うなり自由度が高い。
 
 #### [markdown](https://www.npmjs.com/package/markdown)
-上と同じだと思って使ってみたら、importが面倒な上表が描写できない。
+[marked](#marked)と同じだと思って使ってみたら、importが面倒な上表が描写できない。
 二度と使うな。
 
 ### Node_Modules
