@@ -70,6 +70,8 @@
       - [Puressure.js](#puressurejs)
       - [CodeMirror](#codemirror)
       - [Foxholder](#foxholder)
+      - [marked](#marked)
+      - [markdown](#markdown)
     + [Node_Modules](#node_modules)
       - [ESLint](#eslint)
       - [babel](#babel)
@@ -275,6 +277,13 @@ Web Audio APIを簡単に扱うためのモジュール。
 
 #### [Foxholder](http://foxholder.fox-hover.co.uk/)
 フォームがActiveな場合それを強調するためのアニメーションを追加したりするためのモジュール。
+
+#### [marked](https://www.npmjs.com/package/marked)
+MarkdownをHTMLに変換するための便利マン。
+
+#### [markdown](https://www.npmjs.com/package/markdown)
+上と同じだと思って使ってみたら、importが面倒な上表が描写できない。
+二度と使うな。
 
 ### Node_Modules
 #### ESLint
