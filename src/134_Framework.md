@@ -15,6 +15,7 @@ SPA（Single-Page App）開発のためにアドレスと表示を連結させ�
 簡単に入力変数と表示を連結させることができるMVVMフレームワーク。
 ただし、Vue.jsと違い非常に機能がシンプルで軽量。
 また、記述するコードも非常に少なく済む。
+- ![myqiita](https://img.shields.io/badge/my-qiita-brightgreen.svg)[[解説]Parcel+Hyperappでマークダウンエディタを作る[JS] - Qiita](https://qiita.com/sKawashima/items/ac8fad15b714d91b41f9)（自作記事） 
 - [2018 年は Hyperapp の年だ - Qiita](https://qiita.com/JorgeBucaran/items/c48446babe0627e25ee6)
 
 #### jQuery
