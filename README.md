@@ -102,6 +102,7 @@
   * [Web Service for Git](#web-service-for-git)
       - [GitHub](#github)
         * [ghi](#ghi)
+        * [git-open](#git-open)
       - [GitBuckets](#gitbuckets)
 - [Text Editor](#text-editor)
       - [Atom](#atom)
@@ -391,8 +392,13 @@ IssueやPullRequestが良い。
 GitHubのIssueをCLIで操作できるようにするためのツール。
 どちゃくそべんり。
 
+##### [git-open](https://github.com/paulirish/git-open)
+ターミナルから`git open`するだけでGitHubのWebサイトの該当ページを開いてくれる強者。
+べんり。
+
 #### GitBuckets
 Privateリポジトリが作り放題なGit共有・強化Webサービス。
+使ったことはない。
 
 
 # Text Editor

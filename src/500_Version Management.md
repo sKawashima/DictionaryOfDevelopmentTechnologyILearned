@@ -13,5 +13,10 @@ IssueやPullRequestが良い。
 GitHubのIssueをCLIで操作できるようにするためのツール。
 どちゃくそべんり。
 
+##### [git-open](https://github.com/paulirish/git-open)
+ターミナルから`git open`するだけでGitHubのWebサイトの該当ページを開いてくれる強者。
+べんり。
+
 #### GitBuckets
 Privateリポジトリが作り放題なGit共有・強化Webサービス。
+使ったことはない。
