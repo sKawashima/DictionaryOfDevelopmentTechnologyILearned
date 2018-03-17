@@ -17,6 +17,9 @@ GitHubのIssueをCLIで操作できるようにするためのツール。
 ターミナルから`git open`するだけでGitHubのWebサイトの該当ページを開いてくれる強者。
 べんり。
 
+##### gitignore
+`.gitignore`のテンプレートをコマンド１つでDLできる。
+
 #### GitBuckets
 Privateリポジトリが作り放題なGit共有・強化Webサービス。
 使ったことはない。
