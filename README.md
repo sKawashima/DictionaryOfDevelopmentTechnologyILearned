@@ -1,5 +1,5 @@
 # sKawashimaの開発技術学習目録
-[![maker](https://img.shields.io/badge/maker-sKawashima-4e1a68.svg)](skawashima.com) ![GitHub last commit](https://img.shields.io/github/last-commit/sKawashima/DictionaryOfDevelopmentTechnologyILearned.svg)
+[![maker](https://img.shields.io/badge/maker-sKawashima-4e1a68.svg)](http://skawashima.com/) ![GitHub last commit](https://img.shields.io/github/last-commit/sKawashima/DictionaryOfDevelopmentTechnologyILearned.svg)
 
 
 自分が調べた・調べたい技術関連の情報をまとめます。
