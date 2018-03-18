@@ -18,7 +18,7 @@ GitHubのIssueをCLIで操作できるようにするためのツール。
 べんり。
 
 ##### gitignore
-`.gitignore`のテンプレートをコマンド１つでDLできる。
+`.gitignore`のテンプレートをコマンド１つで[gitignore.io](https://www.gitignore.io/)からDLできる。
 
 #### GitBuckets
 Privateリポジトリが作り放題なGit共有・強化Webサービス。
