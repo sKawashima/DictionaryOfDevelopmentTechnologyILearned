@@ -67,5 +67,6 @@ Block-Element_Modifierとして記述する。
 Javascriptにて行われてこなかった厳格的型宣言を行うことで保守性を高めようとしている。
 ただし、開発者の負担が高まる。
 
-#### CoffeeScript ![自信弱](https://img.shields.io/badge/%E8%87%AA%E4%BF%A1-%E5%BC%B1-lightgrey.svg)
+#### CoffeeScript
 Ruby系メタ言語。
+使ったことはまだ無い。
