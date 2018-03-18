@@ -47,7 +47,7 @@
     + [Meta](#meta-2)
       - [Javascript(ES6/ES2015)](#javascriptes6es2015)
       - [Typescript](#typescript)
-      - [CoffeeScript ![自信弱](https://img.shields.io/badge/%E8%87%AA%E4%BF%A1-%E5%BC%B1-lightgrey.svg)](#coffeescript-%E8%87%AA%E4%BF%A1%E5%BC%B1httpsimgshieldsiobadge%25e8%2587%25aa%25e4%25bf%25a1-%25e5%25bc%25b1-lightgreysvg)
+      - [CoffeeScript](#coffeescript)
   * [Script Module](#script-module)
     + [Package Management](#package-management)
       - [Yarn](#yarn)
@@ -188,8 +188,9 @@ Block-Element_Modifierとして記述する。
 Javascriptにて行われてこなかった厳格的型宣言を行うことで保守性を高めようとしている。
 ただし、開発者の負担が高まる。
 
-#### CoffeeScript ![自信弱](https://img.shields.io/badge/%E8%87%AA%E4%BF%A1-%E5%BC%B1-lightgrey.svg)
+#### CoffeeScript
 Ruby系メタ言語。
+使ったことはまだ無い。
 
 ## Script Module
 ### Package Management
@@ -403,8 +404,8 @@ GitHubのIssueをCLIで操作できるようにするためのツール。
 ターミナルから`git open`するだけでGitHubのWebサイトの該当ページを開いてくれる強者。
 べんり。
 
-##### gitignore
-`.gitignore`のテンプレートをコマンド１つでDLできる。
+##### [gitignore](https://www.gitignore.io/)
+`.gitignore`のテンプレートをコマンド１つで[gitignore.io](https://www.gitignore.io/)からDLできる。
 
 #### GitBuckets
 Privateリポジトリが作り放題なGit共有・強化Webサービス。

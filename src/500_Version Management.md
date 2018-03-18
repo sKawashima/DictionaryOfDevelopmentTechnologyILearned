@@ -17,7 +17,7 @@ GitHubのIssueをCLIで操作できるようにするためのツール。
 ターミナルから`git open`するだけでGitHubのWebサイトの該当ページを開いてくれる強者。
 べんり。
 
-##### gitignore
+##### [gitignore](https://www.gitignore.io/)
 `.gitignore`のテンプレートをコマンド１つで[gitignore.io](https://www.gitignore.io/)からDLできる。
 
 #### GitBuckets
