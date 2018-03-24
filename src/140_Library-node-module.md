@@ -64,6 +64,9 @@ JS側がクラスを付加し、CSSでスタイルを指定する。
 `import`で読み込んだ際は、`src/lang`が読み込まれず日本語訳を表示できないため、
 ```JavaScript
 import Validator from 'validatorjs'
-import ja from 'validatorjs/src/lang/ja'
+import ja from 'validatorjs/src/lang/ja' // これが必要
+
+Validator.useLang('ja')
+Validator.setMessages('ja', ja) // これが必要
 ```
 のように表記する必要がある。
