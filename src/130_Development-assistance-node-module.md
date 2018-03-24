@@ -1,9 +1,9 @@
-## Script Module
+## Development assistance node module
 ### Basic
 #### package.json
 プロジェクトで扱うモジュールを記録するためのファイル。
 すなわち、プロジェクトにおける依存モジュールを列挙する。
-また、npmjs.comでモジュールを公開する際は`data` `repository` `bin` などのパラメータを自分で設定する。
+また、npmjs.comでモジュールを公開する際は`data` `repository` `bin` などのパラメータを自分で
 
 ### Package Management
 package.jsonから必要なモジュールを判断しオンライン上からダウンロードして環境を整えたり、package.jsonを編集したりすることができるツール。
@@ -61,3 +61,22 @@ Adobeの人達が作っている。
 やたら流行っている。
 `webpack-dev-server`がモジュールバンドラーの役割をこなすことも有り、非常に便利。
 最近その光景である`webpack-server`が登場しつつある。
+
+### Converter
+#### pug
+Pug->HTML変換器。
+
+#### node-sass
+Sass/SCSS->CSS変換器。
+
+#### babel
+Javascriptにおけるes2015->es5変換器。
+もともと6to5という名前だったが2015年に改名した。
+
+### Linter
+コードの静的評価ができる。
+きれいにコードを書くために叱ってくれる。
+
+#### ESLint
+設定の自由度が高く、テンプレートが非常に多く存在するLinter。
+JSXをサポートしているなど、多機能。
