@@ -49,9 +49,12 @@
       - [Typescript](#typescript)
       - [CoffeeScript](#coffeescript)
   * [Script Module](#script-module)
+    + [Basic](#basic)
+      - [package.json](#packagejson)
     + [Package Management](#package-management)
       - [Yarn](#yarn)
-      - [NPM](#npm)
+      - [npm](#npm)
+        * [npmjs.com](#npmjscom)
     + [Task Runner](#task-runner)
       - [Gulp](#gulp)
         * [gulp-concat](#gulp-concat)
@@ -193,14 +196,27 @@ Ruby系メタ言語。
 使ったことはまだ無い。
 
 ## Script Module
+### Basic
+#### package.json
+プロジェクトで扱うモジュールを記録するためのファイル。
+すなわち、プロジェクトにおける依存モジュールを列挙する。
+また、npmjs.comでモジュールを公開する際は`data` `repository` `bin` などのパラメータを自分で設定する。
+
 ### Package Management
+package.jsonから必要なモジュールを判断しオンライン上からダウンロードして環境を整えたり、package.jsonを編集したりすることができるツール。
+
 #### Yarn
 NPMよりも高速であり、依存関係をより確実に管理できるパッケージマネージャー。
 
-#### NPM
-Node Package Manager。
+#### npm
+Javascriptのための Package Manager。
 Node.jsをインストールするとついてくる。
 NPMネットワークから各種モジュールパッケージをダウンロード、管理できる。
+
+##### [npmjs.com](npmjs.com)
+npmの公式サイト。
+モジュールの検索や公開等ができる。
+モジュールの公開にはアカウント登録が必要。
 
 ### Task Runner
 Node.js系の直接コードに影響しないモジュールを自動で実行したりするために用いるツール。
@@ -281,8 +297,9 @@ Web Audio APIを簡単に扱うためのモジュール。
 一部端末で感圧センサの数値を利用できるモジュール。
 
 #### [CodeMirror](https://codemirror.net/)
-`textarea`をコードエディタぽくするライブラリ。
-180314現在使ったことがない。
+それっぽいコードエディタを実装するライブラリ。
+エディタにおける行番号の表示やアクティブな行の表現のため、エディタ画面をdivの列挙で実装する。
+valueの取得方法などはまだ分かっていない。
 
 #### [Foxholder](http://foxholder.fox-hover.co.uk/)
 フォームがActiveな場合それを強調するためのアニメーションを追加したりするためのモジュール。
