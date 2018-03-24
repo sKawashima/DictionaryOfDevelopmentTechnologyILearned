@@ -43,3 +43,6 @@ MVCベースではあるが、ModelとControllerを`api`としてまとめて管
 ただし、Gruntを使ってたり更新頻度が低かったりとあんまりメジャーになりそうな雰囲気は少ない。
 
 ## Web Deploy Service
+### ngrok
+建っているローカルサーバーにグローバルアドレスを当てることができるサービス。
+マインクラフトサーバー「[TSURAIMEU Server](https://skawashima.github.io/mcServer1803/)」はこれで公開している。
