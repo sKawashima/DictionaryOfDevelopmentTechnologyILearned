@@ -46,3 +46,8 @@ MVCベースではあるが、ModelとControllerを`api`としてまとめて管
 ### ngrok
 建っているローカルサーバーにグローバルアドレスを当てることができるサービス。
 マインクラフトサーバー「[TSURAIMEU Server](https://skawashima.github.io/mcServer1803/)」はこれで公開している。
+
+## Web Audit
+### Lighthouse
+Webサイト、Webアプリについて様々な監査ができる。
+Node.jsモジュールも存在するが、Chrome拡張機能から実行できるのでこちらで十分。

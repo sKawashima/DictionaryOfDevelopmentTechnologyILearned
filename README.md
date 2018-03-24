@@ -84,18 +84,20 @@
       - [marked](#marked)
         * [markdown](#markdown)
       - [Highlight.js](#highlightjs)
-  * [Web Confirmation Service](#web-confirmation-service)
-      - [Can I use... Support tables for HTML5, CSS3, etc](#can-i-use-support-tables-for-html5-css3-etc)
 - [Web back-end](#web-back-end)
   * [Ruby](#ruby)
     + [Rails on Ruby](#rails-on-ruby)
   * [PHP](#php)
     + [Wordpress](#wordpress)
+      - [Advanced Custom Fields](#advanced-custom-fields)
     + [Drupal](#drupal)
     + [MovableType](#movabletype)
   * [Node.js](#nodejs)
     + [Sails](#sails)
   * [Web Deploy Service](#web-deploy-service)
+    + [ngrok](#ngrok)
+  * [Web Audit](#web-audit)
+    + [Lighthouse](#lighthouse)
 - [Other Programming Language / Framework](#other-programming-language--framework)
 - [Document](#document)
   * [Useful](#useful)
@@ -343,10 +345,6 @@ MarkdownをHTMLに変換するための便利マン。
 JS側がクラスを付加し、CSSでスタイルを指定する。
 初期からどっさりCSSテンプレートが含まれているので、そのまま使うなり編集して使うなり自由度が高い。
 
-## Web Confirmation Service
-#### [Can I use... Support tables for HTML5, CSS3, etc](https://caniuse.com/)
-どの環境でどの技術が使えるかを調べることが出来る。
-
 # Web back-end
 ## Ruby
 イマドキな記法でサーバーサイドが書ける。
@@ -370,6 +368,10 @@ HTMLを拡張するような形で動的サイトを記述できる。
 管理画面を持ち様々なサイトを作れるフレームワークCMSの1つ。
 編集が簡単なのと、非常に出回っているためドキュメントが豊富。
 
+#### [Advanced Custom Fields](https://ja.wordpress.org/plugins/advanced-custom-fields/)
+入力画面を拡張できるプラグイン。
+有料版で手に入るRepeatFieldが非常に便利なため、ライセンス所持を購入した。
+
 ### Drupal
 Wordpressに比べて拡張性がものっそい広いCMS。
 ただし、難しいのとドキュメントが見つからず挫折。
@@ -388,6 +390,14 @@ MVCベースではあるが、ModelとControllerを`api`としてまとめて管
 ただし、Gruntを使ってたり更新頻度が低かったりとあんまりメジャーになりそうな雰囲気は少ない。
 
 ## Web Deploy Service
+### ngrok
+建っているローカルサーバーにグローバルアドレスを当てることができるサービス。
+マインクラフトサーバー「[TSURAIMEU Server](https://skawashima.github.io/mcServer1803/)」はこれで公開している。
+
+## Web Audit
+### Lighthouse
+Webサイト、Webアプリについて様々な監査ができる。
+Node.jsモジュールも存在するが、Chrome拡張機能から実行できるのでこちらで十分。
 
 # Other Programming Language / Framework
 
