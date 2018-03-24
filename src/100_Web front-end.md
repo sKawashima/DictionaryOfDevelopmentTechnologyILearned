@@ -53,18 +53,18 @@ Block-Element_Modifierとして記述する。
 
 ## Script
 ### Base
-#### Javascript(ES5)
-どの端末でも動くJavascript形式。
+#### JavaScript(ES5)
+どの端末でも動くJavaScript形式。
 クラス定義を`prototype`を用いるなどの特徴有り。
 特性上`json`形式を扱うのが得意。
 
 ### Meta
-#### Javascript(ES6/ES2015)
+#### JavaScript(ES6/ES2015)
 より保守性を高めたJS。
 `const`と`let`で変数を管理したり、`Class`宣言や`=>`記法によるfunctionの省略記法などがある。
 
 #### Typescript
-Javascriptにて行われてこなかった厳格的型宣言を行うことで保守性を高めようとしている。
+JavaScriptにて行われてこなかった厳格的型宣言を行うことで保守性を高めようとしている。
 ただし、開発者の負担が高まる。
 
 #### CoffeeScript

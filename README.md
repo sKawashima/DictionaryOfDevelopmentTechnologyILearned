@@ -43,9 +43,9 @@
       - [BEM](#bem)
   * [Script](#script)
     + [Base](#base-2)
-      - [Javascript(ES5)](#javascriptes5)
+      - [JavaScript(ES5)](#javascriptes5)
     + [Meta](#meta-2)
-      - [Javascript(ES6/ES2015)](#javascriptes6es2015)
+      - [JavaScript(ES6/ES2015)](#javascriptes6es2015)
       - [Typescript](#typescript)
       - [CoffeeScript](#coffeescript)
   * [Development assistance node module](#development-assistance-node-module)
@@ -186,18 +186,18 @@ Block-Element_Modifierとして記述する。
 
 ## Script
 ### Base
-#### Javascript(ES5)
-どの端末でも動くJavascript形式。
+#### JavaScript(ES5)
+どの端末でも動くJavaScript形式。
 クラス定義を`prototype`を用いるなどの特徴有り。
 特性上`json`形式を扱うのが得意。
 
 ### Meta
-#### Javascript(ES6/ES2015)
+#### JavaScript(ES6/ES2015)
 より保守性を高めたJS。
 `const`と`let`で変数を管理したり、`Class`宣言や`=>`記法によるfunctionの省略記法などがある。
 
 #### Typescript
-Javascriptにて行われてこなかった厳格的型宣言を行うことで保守性を高めようとしている。
+JavaScriptにて行われてこなかった厳格的型宣言を行うことで保守性を高めようとしている。
 ただし、開発者の負担が高まる。
 
 #### CoffeeScript
@@ -218,7 +218,7 @@ package.jsonから必要なモジュールを判断しオンライン上から�
 NPMよりも高速であり、依存関係をより確実に管理できるパッケージマネージャー。
 
 #### npm
-Javascriptのための Package Manager。
+JavaScriptのための Package Manager。
 Node.jsをインストールするとついてくる。
 NPMネットワークから各種モジュールパッケージをダウンロード、管理できる。
 
@@ -276,7 +276,7 @@ Pug->HTML変換器。
 Sass/SCSS->CSS変換器。
 
 #### babel
-Javascriptにおけるes2015->es5変換器。
+JavaScriptにおけるes2015->es5変換器。
 もともと6to5という名前だったが2015年に改名した。
 
 ### Linter
@@ -351,7 +351,7 @@ JS側がクラスを付加し、CSSでスタイルを指定する。
 フォームのバリデーションを行うライブラリ。
 公式が日本語訳の設定を充実させている。
 `import`で読み込んだ際は、`src/lang`が読み込まれず日本語訳を表示できないため、
-```javascript
+```JavaScript
 import Validator from 'validatorjs'
 import ja from 'validatorjs/src/lang/ja'
 ```
@@ -393,7 +393,7 @@ Wordpressに比べて拡張性がものっそい広いCMS。
 使ったことはない。
 
 ## Node.js
-Javascript記法で書けるサーバー言語。
+JavaScript記法で書けるサーバー言語。
 データベースはおもにMongoDBが良く用いられる。
 
 ### [Sails](https://sailsjs.com/)

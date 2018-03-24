@@ -12,7 +12,7 @@ package.jsonから必要なモジュールを判断しオンライン上から�
 NPMよりも高速であり、依存関係をより確実に管理できるパッケージマネージャー。
 
 #### npm
-Javascriptのための Package Manager。
+JavaScriptのための Package Manager。
 Node.jsをインストールするとついてくる。
 NPMネットワークから各種モジュールパッケージをダウンロード、管理できる。
 
@@ -70,7 +70,7 @@ Pug->HTML変換器。
 Sass/SCSS->CSS変換器。
 
 #### babel
-Javascriptにおけるes2015->es5変換器。
+JavaScriptにおけるes2015->es5変換器。
 もともと6to5という名前だったが2015年に改名した。
 
 ### Linter

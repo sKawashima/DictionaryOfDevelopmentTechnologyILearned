@@ -62,7 +62,7 @@ JS側がクラスを付加し、CSSでスタイルを指定する。
 フォームのバリデーションを行うライブラリ。
 公式が日本語訳の設定を充実させている。
 `import`で読み込んだ際は、`src/lang`が読み込まれず日本語訳を表示できないため、
-```javascript
+```JavaScript
 import Validator from 'validatorjs'
 import ja from 'validatorjs/src/lang/ja'
 ```

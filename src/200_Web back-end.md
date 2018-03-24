@@ -34,7 +34,7 @@ Wordpressに比べて拡張性がものっそい広いCMS。
 使ったことはない。
 
 ## Node.js
-Javascript記法で書けるサーバー言語。
+JavaScript記法で書けるサーバー言語。
 データベースはおもにMongoDBが良く用いられる。
 
 ### [Sails](https://sailsjs.com/)
