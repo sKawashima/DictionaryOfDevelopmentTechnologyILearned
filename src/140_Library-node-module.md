@@ -57,3 +57,13 @@ MarkdownをHTMLに変換するための便利マン。
 コードにカラーハイライトシンタックスを与えるライブラリ。
 JS側がクラスを付加し、CSSでスタイルを指定する。
 初期からどっさりCSSテンプレートが含まれているので、そのまま使うなり編集して使うなり自由度が高い。
+
+#### [validatorjs](https://github.com/skaterdav85/validatorjs)
+フォームのバリデーションを行うライブラリ。
+公式が日本語訳の設定を充実させている。
+`import`で読み込んだ際は、`src/lang`が読み込まれず日本語訳を表示できないため、
+```javascript
+import Validator from 'validatorjs'
+import ja from 'validatorjs/src/lang/ja'
+```
+のように表記する必要がある。
