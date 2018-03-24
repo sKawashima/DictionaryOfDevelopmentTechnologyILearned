@@ -57,3 +57,7 @@ JS側がクラスを付加し、CSSでスタイルを指定する。
 #### [markdown](https://www.npmjs.com/package/markdown)
 [marked](#marked)と同じだと思って使ってみたら、importが面倒な上表が描写できない。
 二度と使うな。
+
+## Web Confirmation Service
+#### [Can I use... Support tables for HTML5, CSS3, etc](https://caniuse.com/)
+どの環境でどの技術が使えるかを調べることが出来る。

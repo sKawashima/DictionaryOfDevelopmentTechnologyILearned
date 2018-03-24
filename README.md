@@ -48,7 +48,7 @@
       - [Javascript(ES6/ES2015)](#javascriptes6es2015)
       - [Typescript](#typescript)
       - [CoffeeScript](#coffeescript)
-  * [Script Module](#script-module)
+  * [Development assistance node module](#development-assistance-node-module)
     + [Basic](#basic)
       - [package.json](#packagejson)
     + [Package Management](#package-management)
@@ -63,13 +63,20 @@
     + [Module Bundler](#module-bundler)
       - [Parcel](#parcel)
       - [Webpack](#webpack)
+    + [Converter](#converter)
+      - [pug](#pug)
+      - [node-sass](#node-sass)
+      - [babel](#babel)
+    + [Linter](#linter)
+      - [ESLint](#eslint)
+  * [Library node module](#library-node-module)
     + [Framework](#framework)
       - [Nuxt](#nuxt)
       - [Vue.js](#vuejs)
         * [vue-cli](#vue-cli)
       - [Hyperapp](#hyperapp)
       - [jQuery](#jquery)
-    + [Modules / Package(simple)](#modules--packagesimple)
+    + [Simple library](#simple-library)
       - [Tone.js](#tonejs)
       - [Puressure.js](#puressurejs)
       - [CodeMirror](#codemirror)
@@ -77,10 +84,8 @@
       - [marked](#marked)
       - [Highlight.js](#highlightjs)
       - [markdown](#markdown)
-    + [Node_Modules](#node_modules)
-      - [ESLint](#eslint)
-      - [babel](#babel)
-  * [Other](#other)
+  * [Web Confirmation Service](#web-confirmation-service)
+      - [Can I use... Support tables for HTML5, CSS3, etc](#can-i-use-support-tables-for-html5-css3-etc)
 - [Web back-end](#web-back-end)
   * [Ruby](#ruby)
     + [Rails on Ruby](#rails-on-ruby)
@@ -195,12 +200,12 @@ Javascriptにて行われてこなかった厳格的型宣言を行うことで�
 Ruby系メタ言語。
 使ったことはまだ無い。
 
-## Script Module
+## Development assistance node module
 ### Basic
 #### package.json
 プロジェクトで扱うモジュールを記録するためのファイル。
 すなわち、プロジェクトにおける依存モジュールを列挙する。
-また、npmjs.comでモジュールを公開する際は`data` `repository` `bin` などのパラメータを自分で設定する。
+また、npmjs.comでモジュールを公開する際は`data` `repository` `bin` などのパラメータを自分で
 
 ### Package Management
 package.jsonから必要なモジュールを判断しオンライン上からダウンロードして環境を整えたり、package.jsonを編集したりすることができるツール。
@@ -259,6 +264,27 @@ Adobeの人達が作っている。
 `webpack-dev-server`がモジュールバンドラーの役割をこなすことも有り、非常に便利。
 最近その光景である`webpack-server`が登場しつつある。
 
+### Converter
+#### pug
+Pug->HTML変換器。
+
+#### node-sass
+Sass/SCSS->CSS変換器。
+
+#### babel
+Javascriptにおけるes2015->es5変換器。
+もともと6to5という名前だったが2015年に改名した。
+
+### Linter
+コードの静的評価ができる。
+きれいにコードを書くために叱ってくれる。
+
+#### ESLint
+設定の自由度が高く、テンプレートが非常に多く存在するLinter。
+JSXをサポートしているなど、多機能。
+
+## Library node module
+
 ### Framework
 - [まだまだ進化中！JavaScriptフレームワークのトレンド | geechs magazine](https://geechs-magazine.com/tag/tech/20170427_1)
 
@@ -288,7 +314,7 @@ Vue.jsの開発環境テンプレートが簡単にDLできるコマンドツー
 `$`を用いて何でも書けるようになる。
 ただし、モダン環境（モジュールバンドラなどを用いる環境）では`import`の仕方に注意が必要。
 
-### Modules / Package(simple)
+### Simple library
 #### Tone.js
 Web Audio APIを簡単に扱うためのモジュール。
 簡単便利ありがとう。
@@ -317,18 +343,9 @@ JS側がクラスを付加し、CSSでスタイルを指定する。
 [marked](#marked)と同じだと思って使ってみたら、importが面倒な上表が描写できない。
 二度と使うな。
 
-### Node_Modules
-#### ESLint
-コードの静的評価ができる。
-きれいにコードを書くために叱ってくれる。
-
-#### babel
-Javascriptの変換機。
-ちゃんと調べて使ったことはない。
-
-## Other
-- [Can I use... Support tables for HTML5, CSS3, etc](https://caniuse.com/)
-  - どの環境でどの技術が使えるかを調べることが出来る。
+## Web Confirmation Service
+#### [Can I use... Support tables for HTML5, CSS3, etc](https://caniuse.com/)
+どの環境でどの技術が使えるかを調べることが出来る。
 
 # Web back-end
 ## Ruby
@@ -375,7 +392,7 @@ MVCベースではあるが、ModelとControllerを`api`としてまとめて管
 # Other Programming Language / Framework
 
 # Document
-そのものに機能的な要素がないテキストベースドキュメント。
+そのものに機能的な要素がないテキストベースドキュメントのための環境。
 
 ## Useful
 #### Markdown
