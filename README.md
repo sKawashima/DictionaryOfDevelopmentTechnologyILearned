@@ -109,21 +109,22 @@
   * [Presentation](#presentation)
       - [Reveal.js](#revealjs)
 - [Version Management](#version-management)
-      - [Git](#git)
+  * [Basic](#basic-1)
+    + [Git](#git)
   * [Web Service for Git](#web-service-for-git)
-      - [GitHub](#github)
-        * [ghi](#ghi)
-        * [git-open](#git-open)
-        * [gitignore](#gitignore)
-      - [GitBuckets](#gitbuckets)
+    + [GitHub](#github)
+      - [ghi](#ghi)
+      - [git-open](#git-open)
+      - [gitignore](#gitignore)
+    + [GitBuckets](#gitbuckets)
 - [Text Editor](#text-editor)
-      - [Atom](#atom)
-      - [Sublime Text](#sublime-text)
-      - [VSCode](#vscode)
+  * [Atom](#atom)
+  * [Sublime Text](#sublime-text)
+  * [VSCode](#vscode)
 - [Shell](#shell)
-      - [fish](#fish)
-      - [bash](#bash)
-      - [zsh](#zsh)
+  * [fish](#fish)
+  * [bash](#bash)
+  * [zsh](#zsh)
 
 <!-- tocstop -->
 
@@ -430,28 +431,29 @@ HTMLやMarkdownでプレゼンテーションをするためのフレームワ�
 Node.js系で、Gruntで動く。
 
 # Version Management
-#### Git
+## Basic
+### Git
 王道バージョン管理ツール。
 試し開発のためにフォルダをコピーとか、開発履歴確認とかに用いる。
 
 ## Web Service for Git
-#### GitHub
+### GitHub
 Gitを共有し強化するためのWebサービス。
 IssueやPullRequestが良い。
 学生会員であればPrivateリポジトリ作り放題。
 
-##### [ghi](https://github.com/stephencelis/ghi)
+#### [ghi](https://github.com/stephencelis/ghi)
 GitHubのIssueをCLIで操作できるようにするためのツール。
 どちゃくそべんり。
 
-##### [git-open](https://github.com/paulirish/git-open)
+#### [git-open](https://github.com/paulirish/git-open)
 ターミナルから`git open`するだけでGitHubのWebサイトの該当ページを開いてくれる強者。
 べんり。
 
-##### [gitignore](https://www.gitignore.io/)
+#### [gitignore](https://www.gitignore.io/)
 `.gitignore`のテンプレートをコマンド１つで[gitignore.io](https://www.gitignore.io/)からDLできる。
 
-#### GitBuckets
+### GitBuckets
 Privateリポジトリが作り放題なGit共有・強化Webサービス。
 使ったことはない。
 
@@ -459,30 +461,30 @@ Privateリポジトリが作り放題なGit共有・強化Webサービス。
 # Text Editor
 宗教。
 
-#### Atom
+## Atom
 GitHub製テキストエディタ。
 行間がいい感じ。
 `apm`コマンドが神。
 
-#### Sublime Text
+## Sublime Text
 非常にシンプルなテキストエディタ。
 使うためにはなんでも設定しなければならない。
 大変。
 
-#### VSCode
+## VSCode
 出現直後からやたら評価されたテキストエディタ。
 カスタマイズなしでなんでもできる。
 ただし、行間が狭い気がする。
 
 # Shell
-#### fish
+## fish
 あたらしくTabがつよい。
 ただし、あまり強みは利用できてない（慣れてない）。
 
-#### bash
+## bash
 Mac標準の`Basic Shell`。
 
-#### zsh
+## zsh
 インターンで知った強いShell。
 ただし、使おうとしたらより新しいfishを見つけてしまい二度と触ることがなさそう。
 
