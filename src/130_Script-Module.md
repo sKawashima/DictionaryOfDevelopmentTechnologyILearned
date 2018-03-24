@@ -1,5 +1,13 @@
 ## Script Module
+### Basic
+#### package.json
+プロジェクトで扱うモジュールを記録するためのファイル。
+すなわち、プロジェクトにおける依存モジュールを列挙する。
+また、npmjs.comでモジュールを公開する際は`data` `repository` `bin` などのパラメータを自分で設定する。
+
 ### Package Management
+package.jsonから必要なモジュールを判断しオンライン上からダウンロードして環境を整えたり、package.jsonを編集したりすることができるツール。
+
 #### Yarn
 NPMよりも高速であり、依存関係をより確実に管理できるパッケージマネージャー。
 
