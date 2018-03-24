@@ -21,6 +21,10 @@ HTMLを拡張するような形で動的サイトを記述できる。
 管理画面を持ち様々なサイトを作れるフレームワークCMSの1つ。
 編集が簡単なのと、非常に出回っているためドキュメントが豊富。
 
+#### [Advanced Custom Fields](https://ja.wordpress.org/plugins/advanced-custom-fields/)
+入力画面を拡張できるプラグイン。
+有料版で手に入るRepeatFieldが非常に便利なため、ライセンス所持を購入した。
+
 ### Drupal
 Wordpressに比べて拡張性がものっそい広いCMS。
 ただし、難しいのとドキュメントが見つからず挫折。
