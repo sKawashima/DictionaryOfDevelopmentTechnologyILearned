@@ -3,10 +3,15 @@
 #### Yarn
 NPMよりも高速であり、依存関係をより確実に管理できるパッケージマネージャー。
 
-#### NPM
-Node Package Manager。
+#### npm
+Javascriptのための Package Manager。
 Node.jsをインストールするとついてくる。
 NPMネットワークから各種モジュールパッケージをダウンロード、管理できる。
+
+##### [npmjs.com](npmjs.com)
+npmの公式サイト。
+モジュールの検索や公開等ができる。
+モジュールの公開にはアカウント登録が必要。
 
 ### Task Runner
 Node.js系の直接コードに影響しないモジュールを自動で実行したりするために用いるツール。
