@@ -349,16 +349,18 @@ JS側がクラスを付加し、CSSでスタイルを指定する。
 
 #### [validatorjs](https://github.com/skaterdav85/validatorjs)
 フォームのバリデーションを行うライブラリ。
-公式が日本語訳の設定を充実させている。
-`import`で読み込んだ際は、`src/lang`が読み込まれず日本語訳を表示できないため、
+~~公式が日本語訳の設定を充実させている。~~
+~~`import`で読み込んだ際は、`src/lang`が読み込まれず日本語訳を表示できないため、~~
 ```JavaScript
-import Validator from 'validatorjs'
+/* import Validator from 'validatorjs'
 import ja from 'validatorjs/src/lang/ja' // これが必要
 
 Validator.useLang('ja')
-Validator.setMessages('ja', ja) // これが必要
+Validator.setMessages('ja', ja) // これが必要 */
 ```
-のように表記する必要がある。
+~~のように表記する必要がある。~~
+
+20180324現在、import/requireともに正常に動作しない。そもそも、なんでmainで`src/`を取っているのか等、謎が多い。
 
 # Web back-end
 ## Ruby
