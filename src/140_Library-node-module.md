@@ -57,7 +57,3 @@ MarkdownをHTMLに変換するための便利マン。
 コードにカラーハイライトシンタックスを与えるライブラリ。
 JS側がクラスを付加し、CSSでスタイルを指定する。
 初期からどっさりCSSテンプレートが含まれているので、そのまま使うなり編集して使うなり自由度が高い。
-
-## Web Confirmation Service
-#### [Can I use... Support tables for HTML5, CSS3, etc](https://caniuse.com/)
-どの環境でどの技術が使えるかを調べることが出来る。
