@@ -1,9 +1,9 @@
-## Script Module
+## Development assistance module
 ### Basic
 #### package.json
 プロジェクトで扱うモジュールを記録するためのファイル。
 すなわち、プロジェクトにおける依存モジュールを列挙する。
-また、npmjs.comでモジュールを公開する際は`data` `repository` `bin` などのパラメータを自分で設定する。
+また、npmjs.comでモジュールを公開する際は`data` `repository` `bin` などのパラメータを自分で
 
 ### Package Management
 package.jsonから必要なモジュールを判断しオンライン上からダウンロードして環境を整えたり、package.jsonを編集したりすることができるツール。
