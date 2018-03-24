@@ -49,14 +49,14 @@ valueの取得方法などはまだ分かっていない。
 MarkdownをHTMLに変換するための便利マン。
 - 以下の[Highlight.js](#Highlightjs)との連携でハマった際は[こう](https://github.com/sKawashima/markdown-editor_180314/pull/4)対処した。
 
+##### [markdown](https://www.npmjs.com/package/markdown)
+[marked](#marked)と同じだと思って使ってみたら、importが面倒な上表が描写できない。
+二度と使うな。
+
 #### [Highlight.js](https://highlightjs.org/)
 コードにカラーハイライトシンタックスを与えるライブラリ。
 JS側がクラスを付加し、CSSでスタイルを指定する。
 初期からどっさりCSSテンプレートが含まれているので、そのまま使うなり編集して使うなり自由度が高い。
-
-#### [markdown](https://www.npmjs.com/package/markdown)
-[marked](#marked)と同じだと思って使ってみたら、importが面倒な上表が描写できない。
-二度と使うな。
 
 ## Web Confirmation Service
 #### [Can I use... Support tables for HTML5, CSS3, etc](https://caniuse.com/)
