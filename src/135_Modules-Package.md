@@ -28,13 +28,6 @@ JS側がクラスを付加し、CSSでスタイルを指定する。
 二度と使うな。
 
 ### Node_Modules
-#### ESLint
-コードの静的評価ができる。
-きれいにコードを書くために叱ってくれる。
-
-#### babel
-Javascriptの変換機。
-ちゃんと調べて使ったことはない。
 
 ## Other
 - [Can I use... Support tables for HTML5, CSS3, etc](https://caniuse.com/)
