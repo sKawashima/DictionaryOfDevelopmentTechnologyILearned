@@ -84,6 +84,7 @@
         * [markdown](#markdown)
       - [Highlight.js](#highlightjs)
       - [validatorjs](#validatorjs)
+      - [meu](#meu)
 - [Web back-end](#web-back-end)
   * [Ruby](#ruby)
     + [Rails on Ruby](#rails-on-ruby)
@@ -309,7 +310,7 @@ Vue.jsの開発環境テンプレートが簡単にDLできるコマンドツー
 簡単に入力変数と表示を連結させることができるMVVMフレームワーク。
 ただし、Vue.jsと違い非常に機能がシンプルで軽量。
 また、記述するコードも非常に少なく済む。
-- ![myqiita](https://img.shields.io/badge/my-qiita-brightgreen.svg)[[解説]Parcel+Hyperappでマークダウンエディタを作る[JS] - Qiita](https://qiita.com/sKawashima/items/ac8fad15b714d91b41f9)（自作記事）
+- ![myqiita](https://img.shields.io/badge/my-qiita-brightgreen.svg) [[解説]Parcel+Hyperappでマークダウンエディタを作る[JS] - Qiita](https://qiita.com/sKawashima/items/ac8fad15b714d91b41f9)（自作記事）
 - [2018 年は Hyperapp の年だ - Qiita](https://qiita.com/JorgeBucaran/items/c48446babe0627e25ee6)
 
 #### jQuery
@@ -360,6 +361,9 @@ Validator.setMessages('ja', ja) // これが必要 */
 ~~のように表記する必要がある。~~
 
 20180324現在、import/requireともに正常に動作しない。そもそも、なんでmainで`src/`を取っているのか等、謎が多い。
+
+#### [meu](https://www.npmjs.com/package/meu)
+![mymodule](https://img.shields.io/badge/my-module-brightgreen.svg) 文字を引数にとって実行すると語尾に「めう！」を付けるだけのネタモジュール。
 
 # Web back-end
 ## Ruby
