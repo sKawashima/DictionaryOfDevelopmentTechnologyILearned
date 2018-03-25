@@ -9,7 +9,6 @@
 もし見つけていただいた方がいらっしゃいましたら、Issueにぶち込んで頂けるとありがたいです。
 
 また、このREADME.mdは`src/`内のファイルを結合して生成しています。
-- [gulp 用プラグイン gulp-concat でファイルを一つにまとめる方法 | phiary](http://phiary.me/gulp-concat-file/)
 
 ### Common Terms
 #### Base
