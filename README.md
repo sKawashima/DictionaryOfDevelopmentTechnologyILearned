@@ -126,6 +126,7 @@
   * [fish](#fish)
   * [bash](#bash)
   * [zsh](#zsh)
+- [til](#til)
 
 <!-- tocstop -->
 
@@ -195,6 +196,7 @@ Block-Element_Modifierとして記述する。
 #### JavaScript(ES6/ES2015)
 より保守性を高めたJS。
 `const`と`let`で変数を管理したり、`Class`宣言や`=>`記法によるfunctionの省略記法などがある。
+- ![myqiita](https://img.shields.io/badge/my-Qiita-brightgreen.svg) [setTimeoutしようとしたらハマったのでメモ - Qiita](https://qiita.com/sKawashima/items/8398820eed974da60846)
 
 #### Typescript
 JavaScriptにて行われてこなかった厳格的型宣言を行うことで保守性を高めようとしている。
@@ -310,7 +312,7 @@ Vue.jsの開発環境テンプレートが簡単にDLできるコマンドツー
 簡単に入力変数と表示を連結させることができるMVVMフレームワーク。
 ただし、Vue.jsと違い非常に機能がシンプルで軽量。
 また、記述するコードも非常に少なく済む。
-- ![myqiita](https://img.shields.io/badge/my-qiita-brightgreen.svg) [[解説]Parcel+Hyperappでマークダウンエディタを作る[JS] - Qiita](https://qiita.com/sKawashima/items/ac8fad15b714d91b41f9)（自作記事）
+- ![myqiita](https://img.shields.io/badge/my-Qiita-brightgreen.svg) [[解説]Parcel+Hyperappでマークダウンエディタを作る[JS] - Qiita](https://qiita.com/sKawashima/items/ac8fad15b714d91b41f9)（自作記事）
 - [2018 年は Hyperapp の年だ - Qiita](https://qiita.com/JorgeBucaran/items/c48446babe0627e25ee6)
 
 #### jQuery
@@ -370,12 +372,14 @@ Validator.setMessages('ja', ja) // これが必要 */
 イマドキな記法でサーバーサイドが書ける。
 API作成などに用いた。
 データベース連携の際はSQliteが良く用いられる。
+- ![myqiita](https://img.shields.io/badge/my-Qiita-brightgreen.svg) [XSERVERでCGI/APIを走らせて500エラーが出たときに確認すること - Qiita](https://qiita.com/sKawashima/items/9c045eadf48071ebf6a2)
 
 ### Rails on Ruby
 Rubyを用いた開発において、データベースの管理や最低限のコード郡を自動的に生成したりできるフレームワーク。
 特に、勝手にデータベースを設計してくれるさまは感動的。
 思想としてMVC（Model-View-Controller）が用いられる。
 - [Vue.jsとRailsでTODOアプリのチュートリアルみたいなものを作ってみた](https://qiita.com/naoki85/items/51a8b0f2cbf949d08b11)
+- ![myqiita](https://img.shields.io/badge/my-Qiita-brightgreen.svg) [Ruby on Rails 学習メモ的チートシート - Qiita](https://qiita.com/sKawashima/items/41c3eca67f925d627f59)
 
 ## PHP
 HTMLを拡張するような形で動的サイトを記述できる。
@@ -508,5 +512,9 @@ Mac標準の`Basic Shell`。
 ただし、使おうとしたらより新しいfishを見つけてしまい二度と触ることがなさそう。
 
 
+
+# til
+Today I Learned
+- ![myqiita](https://img.shields.io/badge/my-Qiita-brightgreen.svg) [sKawashima - Qiita](https://qiita.com/sKawashima)
 ---
 © 2018 sKawashima

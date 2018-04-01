@@ -62,6 +62,7 @@ Block-Element_Modifierとして記述する。
 #### JavaScript(ES6/ES2015)
 より保守性を高めたJS。
 `const`と`let`で変数を管理したり、`Class`宣言や`=>`記法によるfunctionの省略記法などがある。
+- ![myqiita](https://img.shields.io/badge/my-Qiita-brightgreen.svg) [setTimeoutしようとしたらハマったのでメモ - Qiita](https://qiita.com/sKawashima/items/8398820eed974da60846)
 
 #### Typescript
 JavaScriptにて行われてこなかった厳格的型宣言を行うことで保守性を高めようとしている。
