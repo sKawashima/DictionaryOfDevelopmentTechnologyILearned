@@ -87,7 +87,8 @@
       - [meu](#meu)
 - [Web back-end](#web-back-end)
   * [Ruby](#ruby)
-    + [Rails on Ruby](#rails-on-ruby)
+    + [Ruby on Rails](#ruby-on-rails)
+      - [Active Record](#active-record)
   * [PHP](#php)
     + [Wordpress](#wordpress)
       - [Advanced Custom Fields](#advanced-custom-fields)
@@ -374,12 +375,18 @@ API作成などに用いた。
 データベース連携の際はSQliteが良く用いられる。
 - ![myqiita](https://img.shields.io/badge/my-Qiita-brightgreen.svg) [XSERVERでCGI/APIを走らせて500エラーが出たときに確認すること - Qiita](https://qiita.com/sKawashima/items/9c045eadf48071ebf6a2)
 
-### Rails on Ruby
+### Ruby on Rails
 Rubyを用いた開発において、データベースの管理や最低限のコード郡を自動的に生成したりできるフレームワーク。
 特に、勝手にデータベースを設計してくれるさまは感動的。
 思想としてMVC（Model-View-Controller）が用いられる。
 - [Vue.jsとRailsでTODOアプリのチュートリアルみたいなものを作ってみた](https://qiita.com/naoki85/items/51a8b0f2cbf949d08b11)
 - ![myqiita](https://img.shields.io/badge/my-Qiita-brightgreen.svg) [Ruby on Rails 学習メモ的チートシート - Qiita](https://qiita.com/sKawashima/items/41c3eca67f925d627f59)
+
+#### Active Record
+Ruby on Railsで生成されるデータベース郡を操作するための記法。
+SQLで行うような操作をより直感的に行える。
+Ruby on Railsが開発している。
+- [ActiveRecord入門 - Qiita](https://qiita.com/kimioka0/items/8c10e01def23fdbf3aa6)
 
 ## PHP
 HTMLを拡張するような形で動的サイトを記述できる。
