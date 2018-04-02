@@ -76,6 +76,7 @@
       - [Hyperapp](#hyperapp)
       - [jQuery](#jquery)
     + [Simple library](#simple-library)
+      - [Axios](#axios)
       - [Tone.js](#tonejs)
       - [Puressure.js](#puressurejs)
       - [CodeMirror](#codemirror)
@@ -322,6 +323,11 @@ Vue.jsの開発環境テンプレートが簡単にDLできるコマンドツー
 ただし、モダン環境（モジュールバンドラなどを用いる環境）では`import`の仕方に注意が必要。
 
 ### Simple library
+#### Axios
+シンプルな非同期通信モジュール。
+Vueと組み合わせて幾つかのWebサイトで柔軟な表示を実装したり、メールフォームを実装したりした。
+合わせてAPI実装ができれば基本的になんでもできる。
+
 #### Tone.js
 Web Audio APIを簡単に扱うためのモジュール。
 簡単便利ありがとう。
