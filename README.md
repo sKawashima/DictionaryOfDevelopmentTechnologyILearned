@@ -71,6 +71,7 @@
   * [Library node module](#library-node-module)
     + [Framework](#framework)
       - [Nuxt](#nuxt)
+        * [create-nuxt-app](#create-nuxt-app)
       - [Vue.js](#vuejs)
         * [vue-cli](#vue-cli)
       - [Hyperapp](#hyperapp)
@@ -300,6 +301,9 @@ JSXをサポートしているなど、多機能。
 Vue.jsを拡張させたフレームワーク。
 Webpackが必須。
 `Vue Router`をファイルの配置に伴い自動生成したり、サーバーレスな静的ファイルの書き出しを行えたり、サーバーサイドを記述できたりする。
+
+##### create-nuxt-app
+Nuxtの開発環境テンプレートDL用コマンドツール。
 
 #### Vue.js
 簡単に入力変数と表示を連結させることができるMVVMフレームワーク。
