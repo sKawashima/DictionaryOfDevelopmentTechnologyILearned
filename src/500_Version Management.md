@@ -10,6 +10,10 @@ Gitを共有し強化するためのWebサービス。
 IssueやPullRequestが良い。
 学生会員であればPrivateリポジトリ作り放題。
 
+#### hub
+ローカルのGitブランチをそのままGitHubに作成したりできるGitHub用強化パッチ。
+Issueを操作することもできるがそれに関しては[ghi](#ghi)のほうが便利。
+
 #### [ghi](https://github.com/stephencelis/ghi)
 GitHubのIssueをCLIで操作できるようにするためのツール。
 どちゃくそべんり。

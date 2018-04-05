@@ -117,6 +117,7 @@
     + [Git](#git)
   * [Web Service for Git](#web-service-for-git)
     + [GitHub](#github)
+      - [hub](#hub)
       - [ghi](#ghi)
       - [git-open](#git-open)
       - [gitignore](#gitignore)
@@ -481,6 +482,10 @@ Node.js系で、Gruntで動く。
 Gitを共有し強化するためのWebサービス。
 IssueやPullRequestが良い。
 学生会員であればPrivateリポジトリ作り放題。
+
+#### hub
+ローカルのGitブランチをそのままGitHubに作成したりできるGitHub用強化パッチ。
+Issueを操作することもできるがそれに関しては[ghi](#ghi)のほうが便利。
 
 #### [ghi](https://github.com/stephencelis/ghi)
 GitHubのIssueをCLIで操作できるようにするためのツール。
