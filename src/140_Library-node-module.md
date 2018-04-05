@@ -79,7 +79,7 @@ Validator.setMessages('ja', ja) // これが必要 */
 ```
 ~~のように表記する必要がある。~~
 
-20180324現在、import/requireともに正常に動作しない。そもそも、なんでmainで`src/`を取っているのか等、謎が多い。
+20180324現在、import/requireともに正常に動作しない。そもそも、なんでmainで`src/`を取っているのか等、謎が多い。動いていないのは僕の環境だけかもしれないが…
 
 #### [meu](https://www.npmjs.com/package/meu)
 ![mymodule](https://img.shields.io/badge/my-module-brightgreen.svg) 文字を引数にとって実行すると語尾に「めう！」を付けるだけのネタモジュール。
