@@ -66,6 +66,7 @@
       - [pug](#pug)
       - [node-sass](#node-sass)
       - [babel](#babel)
+      - [imagemin](#imagemin)
     + [Linter](#linter)
       - [ESLint](#eslint)
   * [Library node module](#library-node-module)
@@ -284,6 +285,10 @@ Sass/SCSS->CSS変換器。
 #### babel
 JavaScriptにおけるes2015->es5変換器。
 もともと6to5という名前だったが2015年に改名した。
+
+#### imagemin
+画像を圧縮してくれるライブラリ。
+サイズを小さくするのではなく、色情報を省くことでほとんど認知できない圧縮が行える。
 
 ### Linter
 コードの静的評価ができる。
