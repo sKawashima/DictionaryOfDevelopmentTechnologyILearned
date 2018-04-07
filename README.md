@@ -69,6 +69,8 @@
       - [imagemin](#imagemin)
     + [Linter](#linter)
       - [ESLint](#eslint)
+    + [Static Site Generator](#static-site-generator)
+      - [Hexo](#hexo)
   * [Library node module](#library-node-module)
     + [Framework](#framework)
       - [Nuxt](#nuxt)
@@ -297,6 +299,13 @@ JavaScriptにおけるes2015->es5変換器。
 #### ESLint
 設定の自由度が高く、テンプレートが非常に多く存在するLinter。
 JSXをサポートしているなど、多機能。
+
+### Static Site Generator
+#### Hexo
+Node.js製のブログジェネレータ。
+コマンドを叩くだけで必要なファイルを生成してくれる。
+テンプレートエンジンはejs。
+Gruntで動いている。ちょっと古いだけにこれだけは心配。
 
 ## Library node module
 
