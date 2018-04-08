@@ -83,3 +83,7 @@ Validator.setMessages('ja', ja) // これが必要 */
 
 #### [meu](https://www.npmjs.com/package/meu)
 ![mymodule](https://img.shields.io/badge/my-module-brightgreen.svg) 文字を引数にとって実行すると語尾に「めう！」を付けるだけのネタモジュール。
+
+#### [clipboard.js](https://clipboardjs.com/)
+クリップボードに特定の要素を保存できるライブラリ。
+HTML要素に対して`new`すればクリップボードに入れる要素などはHTML側で書ける。
