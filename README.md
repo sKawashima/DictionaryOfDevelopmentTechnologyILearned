@@ -74,6 +74,7 @@
   * [Library node module](#library-node-module)
     + [Framework](#framework)
       - [Nuxt](#nuxt)
+        * [@nuxtjs/pwa](#nuxtjspwa)
         * [create-nuxt-app](#create-nuxt-app)
       - [Vue.js](#vuejs)
         * [vue-cli](#vue-cli)
@@ -317,6 +318,9 @@ Gruntで動いている。ちょっと古いだけにこれだけは心配。
 Vue.jsを拡張させたフレームワーク。
 Webpackが必須。
 `Vue Router`をファイルの配置に伴い自動生成したり、サーバーレスな静的ファイルの書き出しを行えたり、サーバーサイドを記述できたりする。
+
+##### @nuxtjs/pwa
+NuxtでPWAを作るためのライブラリ。configファイルにmanifestを含む各パラメータを記述できるようになる。
 
 ##### create-nuxt-app
 Nuxtの開発環境テンプレートDL用コマンドツール。
