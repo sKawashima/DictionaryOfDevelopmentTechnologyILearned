@@ -20,6 +20,9 @@ Nuxtの開発環境テンプレートDL用コマンドツール。
 SPA（Single-Page App）開発のためにアドレスと表示を連結させる`Vue Router`がある。
 - [Vueでつくったマークダウンエディタ](https://github.com/sKawashima/markdown-editor_180314)
 
+##### Vuex
+Vue間のデータ共有のためのストアが実装できるフレームワーク。
+
 ##### vue-cli
 Vue.jsの開発環境テンプレートが簡単にDLできるコマンドツール。
 
