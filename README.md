@@ -128,6 +128,8 @@
       - [git-open](#git-open)
       - [gitignore](#gitignore)
     + [GitBuckets](#gitbuckets)
+- [Deploy](#deploy)
+  * [Now](#now)
 - [Text Editor](#text-editor)
   * [Atom](#atom)
   * [Sublime Text](#sublime-text)
@@ -529,6 +531,12 @@ GitHubのIssueをCLIで操作できるようにするためのツール。
 Privateリポジトリが作り放題なGit共有・強化Webサービス。
 使ったことはない。
 
+
+# Deploy
+## [Now](https://zeit.co/now)
+Node.js, Docker, 静的Webサイトのデプロイサービス。
+`now`コマンド1つで簡単にデプロイできる。
+ただし、無料プランではソースコードを隠せないことに加え最大3つまでしかデプロイ出来ない。
 
 # Text Editor
 宗教。
