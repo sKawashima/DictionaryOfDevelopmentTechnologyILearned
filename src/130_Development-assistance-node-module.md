@@ -85,6 +85,12 @@ JavaScriptにおけるes2015->es5変換器。
 設定の自由度が高く、テンプレートが非常に多く存在するLinter。
 JSXをサポートしているなど、多機能。
 
+### Desktop Application Framework
+#### [Electron](https://electronjs.org/)
+WebページをそのままGUIとしてアプリケーションを制作することができるフレームワーク。
+テキストエディタのAtomやVSCodeなどはこれで作られている。
+Mac, Windows, Linuxのそれぞれのためのアプリケーションで出力することができる。
+
 ### Static Site Generator
 #### Hexo
 Node.js製のブログジェネレータ。

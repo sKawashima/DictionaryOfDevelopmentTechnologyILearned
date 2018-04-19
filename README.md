@@ -69,6 +69,8 @@
       - [imagemin](#imagemin)
     + [Linter](#linter)
       - [ESLint](#eslint)
+    + [Desktop Application Framework](#desktop-application-framework)
+      - [Electron](#electron)
     + [Static Site Generator](#static-site-generator)
       - [Hexo](#hexo)
   * [Library node module](#library-node-module)
@@ -304,6 +306,12 @@ JavaScriptにおけるes2015->es5変換器。
 #### ESLint
 設定の自由度が高く、テンプレートが非常に多く存在するLinter。
 JSXをサポートしているなど、多機能。
+
+### Desktop Application Framework
+#### [Electron](https://electronjs.org/)
+WebページをそのままGUIとしてアプリケーションを制作することができるフレームワーク。
+テキストエディタのAtomやVSCodeなどはこれで作られている。
+Mac, Windows, Linuxのそれぞれのためのアプリケーションで出力することができる。
 
 ### Static Site Generator
 #### Hexo
