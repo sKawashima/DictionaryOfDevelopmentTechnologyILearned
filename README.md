@@ -95,6 +95,7 @@
       - [validatorjs](#validatorjs)
       - [meu](#meu)
       - [clipboard.js](#clipboardjs)
+      - [Rough.js](#roughjs)
 - [Web back-end](#web-back-end)
   * [Ruby](#ruby)
     + [Ruby on Rails](#ruby-on-rails)
@@ -413,8 +414,11 @@ Validator.setMessages('ja', ja) // これが必要 */
 ![mymodule](https://img.shields.io/badge/my-module-brightgreen.svg) 文字を引数にとって実行すると語尾に「めう！」を付けるだけのネタモジュール。
 
 #### [clipboard.js](https://clipboardjs.com/)
-クリップボードに特定の要素を保存できるライブラリ。
+クリップボードに特定の要素を保存できるモジュール。
 HTML要素に対して`new`すればクリップボードに入れる要素などはHTML側で書ける。
+
+#### Rough.js
+図形を手書きテイストに描写できるモジュール。
 
 # Web back-end
 ## Ruby
