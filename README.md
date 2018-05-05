@@ -69,8 +69,6 @@
       - [imagemin](#imagemin)
     + [Linter](#linter)
       - [ESLint](#eslint)
-    + [Desktop Application Framework](#desktop-application-framework)
-      - [Electron](#electron)
     + [Static Site Generator](#static-site-generator)
       - [Hexo](#hexo)
   * [Library node module](#library-node-module)
@@ -113,7 +111,8 @@
     + [ngrok](#ngrok)
   * [Web Audit](#web-audit)
     + [Lighthouse](#lighthouse)
-- [Other Programming Language / Framework](#other-programming-language--framework)
+- [Software Programming](#software-programming)
+  * [Node.js](#nodejs-1)
 - [Document](#document)
   * [Useful](#useful)
     + [Markdown](#markdown)
@@ -310,12 +309,6 @@ JavaScriptにおけるes2015->es5変換器。
 設定の自由度が高く、テンプレートが非常に多く存在するLinter。
 JSXをサポートしているなど、多機能。
 
-### Desktop Application Framework
-#### [Electron](https://electronjs.org/)
-WebページをそのままGUIとしてアプリケーションを制作することができるフレームワーク。
-テキストエディタのAtomやVSCodeなどはこれで作られている。
-Mac, Windows, Linuxのそれぞれのためのアプリケーションで出力することができる。
-
 ### Static Site Generator
 #### Hexo
 Node.js製のブログジェネレータ。
@@ -493,7 +486,9 @@ MVCベースではあるが、ModelとControllerを`api`としてまとめて管
 Webサイト、Webアプリについて様々な監査ができる。
 Node.jsモジュールも存在するが、Chrome拡張機能から実行できるのでこちらで十分。
 
-# Other Programming Language / Framework
+# Software Programming
+## Node.js
+JavaScript記法で様々な開発ができる開発環境。
 
 # Document
 そのものに機能的な要素がないテキストベースドキュメントのための環境。
