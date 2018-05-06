@@ -114,7 +114,9 @@
 - [Software Programming](#software-programming)
   * [Node.js](#nodejs-1)
     + [Electron](#electron)
-    + [clear](#clear)
+    + [CLI開発補助node module](#cli%E9%96%8B%E7%99%BA%E8%A3%9C%E5%8A%A9node-module)
+      - [clear](#clear)
+      - [chalk](#chalk)
 - [Document](#document)
   * [Useful](#useful)
     + [Markdown](#markdown)
@@ -490,15 +492,19 @@ Node.jsモジュールも存在するが、Chrome拡張機能から実行でき�
 
 # Software Programming
 ## Node.js
-JavaScript記法で様々な開発ができる開発環境。ライブラリが豊富かつ検索環境も整っている。UIをWebで実装出来るため、基本的にここではUIを持つためのアプリケーション開発環境である[Electron](Electron)とその他CLI開発補助モジュールを記載する。
+JavaScript記法で様々な開発ができる開発環境。ライブラリが豊富かつ検索環境も整っている。UIをWebで実装出来るため、基本的にここではUIを持つためのアプリケーション開発環境である[Electron](Electron)とその他CLI開発補助node moduleを記載する。
 
 ### [Electron](https://electronjs.org/)
 WebページをそのままGUIとしてアプリケーションを制作することができるフレームワーク。
 テキストエディタのAtomやVSCodeなどはこれで作られている。
 Mac, Windows, Linuxのそれぞれのためのアプリケーションで出力することができる。
 
-### clear
-Node.js製のCLIツールにおいて、ターミナルコマンドの`clear`と同等の動作をする関数`clear()`を追加するモジュール。CLIツール開発に用いる。
+### CLI開発補助node module
+#### clear
+ターミナルコマンドの`clear`と同等の動作をする関数`clear()`を追加するモジュール。
+
+#### [chalk](https://www.npmjs.com/package/chalk)
+チョーク。CLIにおける文字の表示色や背景色を簡単に変更することが出来る関数を追加するモジュール。
 
 # Document
 そのものに機能的な要素がないテキストベースドキュメントのための環境。
