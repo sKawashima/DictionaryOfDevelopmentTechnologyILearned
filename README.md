@@ -115,6 +115,7 @@
 - [Software Programming](#software-programming)
   * [Node.js](#nodejs-1)
     + [Electron](#electron)
+    + [Nativefier](#nativefier)
     + [CLI開発補助node module](#cli%E9%96%8B%E7%99%BA%E8%A3%9C%E5%8A%A9node-module)
       - [clear](#clear)
       - [chalk](#chalk)
@@ -510,6 +511,10 @@ JavaScript記法で様々な開発ができる開発環境。ライブラリが�
 WebページをそのままGUIとしてアプリケーションを制作することができるフレームワーク。
 テキストエディタのAtomやVSCodeなどはこれで作られている。
 Mac, Windows, Linuxのそれぞれのためのアプリケーションで出力することができる。
+
+### [Nativefier](https://github.com/jiahaog/nativefier)
+既存WebサイトをElectronネイティブアプリ化するためのCLIツール。
+一行のコマンドで制作できてしまうことが非常に便利。
 
 ### CLI開発補助node module
 #### clear

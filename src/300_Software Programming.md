@@ -7,6 +7,10 @@ WebページをそのままGUIとしてアプリケーションを制作する�
 テキストエディタのAtomやVSCodeなどはこれで作られている。
 Mac, Windows, Linuxのそれぞれのためのアプリケーションで出力することができる。
 
+### [Nativefier](https://github.com/jiahaog/nativefier)
+既存WebサイトをElectronネイティブアプリ化するためのCLIツール。
+一行のコマンドで制作できてしまうことが非常に便利。
+
 ### CLI開発補助node module
 #### clear
 ターミナルコマンドの`clear`と同等の動作をする関数`clear()`を追加するモジュール。
