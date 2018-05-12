@@ -137,6 +137,7 @@
       - [ghi](#ghi)
       - [git-open](#git-open)
       - [gitignore](#gitignore)
+      - [gitignore.io](#gitignoreio)
     + [GitBuckets](#gitbuckets)
 - [Deploy](#deploy)
   * [Now](#now)
@@ -576,7 +577,11 @@ GitHubのIssueをCLIで操作できるようにするためのツール。
 べんり。
 
 #### [gitignore](https://www.gitignore.io/)
-`.gitignore`のテンプレートをコマンド１つで[gitignore.io](https://www.gitignore.io/)からDLできる。
+`.gitignore`のテンプレートをコマンド１つで[gitignore.io](#gitignore.io)からDLできる。
+
+#### [gitignore.io](https://www.gitignore.io/)
+`.gitignore`ファイルのテンプレートを公開しているサイト。
+とりあえずアクセスして開発言語を入力すれば何のテンプレートがあるのか分かる。
 
 ### GitBuckets
 Privateリポジトリが作り放題なGit共有・強化Webサービス。
