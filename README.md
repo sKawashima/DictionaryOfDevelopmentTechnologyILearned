@@ -98,6 +98,7 @@
         * [Moment.js](#momentjs)
       - [figlet](#figlet)
       - [nanoJS](#nanojs)
+      - [mermaid](#mermaid)
 - [Web back-end](#web-back-end)
   * [Ruby](#ruby)
     + [Ruby on Rails](#ruby-on-rails)
@@ -447,6 +448,10 @@ ___________.___  ________.__          __          __
 #### [nanoJS](https://github.com/vladocar/nanoJS)
 シンプルなDOM要素の操作を行える0.6KBの超軽量ライブラリ。
 一言で言えば、軽量かつ最低限の機能を揃えたJQuery。
+
+#### [mermaid](https://mermaidjs.github.io/)
+シンプルな記述方法で各種図を出力できるライブラリ。
+[オンラインエディタ](https://mermaidjs.github.io/mermaid-live-editor/)も有る。
 
 # Web back-end
 ## Ruby
