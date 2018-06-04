@@ -101,6 +101,7 @@
       - [mermaid](#mermaid)
       - [iTyped.js](#itypedjs)
       - [ZOOM.JS](#zoomjs)
+      - [Minigrid](#minigrid)
 - [Web back-end](#web-back-end)
   * [Ruby](#ruby)
     + [Ruby on Rails](#ruby-on-rails)
@@ -461,6 +462,10 @@ ___________.___  ________.__          __          __
 #### [ZOOM.JS](https://github.com/fat/zoom.js)
 画像をモーダル的に拡大表示するためのライブラリ。
 非常にシンプルに使える。
+
+#### [Minigrid](http://minigrid.js.org/)
+カード型レイアウトを実装する2KBのライブラリ。
+実装は親を指定するだけなので、ポートフォリオサイトへの有力な採用候補。
 
 # Web back-end
 ## Ruby
