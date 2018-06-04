@@ -99,6 +99,7 @@
       - [figlet](#figlet)
       - [nanoJS](#nanojs)
       - [mermaid](#mermaid)
+      - [iTyped.js](#itypedjs)
 - [Web back-end](#web-back-end)
   * [Ruby](#ruby)
     + [Ruby on Rails](#ruby-on-rails)
@@ -452,6 +453,9 @@ ___________.___  ________.__          __          __
 #### [mermaid](https://mermaidjs.github.io/)
 シンプルな記述方法で各種図を出力できるライブラリ。
 [オンラインエディタ](https://mermaidjs.github.io/mermaid-live-editor/)も有る。
+
+#### [iTyped.js](https://github.com/luisvinicius167/ityped)
+タイプライターのように一文字ずつ文字を表示できるライブラリ。
 
 # Web back-end
 ## Ruby

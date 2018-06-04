@@ -125,3 +125,6 @@ ___________.___  ________.__          __          __
 #### [mermaid](https://mermaidjs.github.io/)
 シンプルな記述方法で各種図を出力できるライブラリ。
 [オンラインエディタ](https://mermaidjs.github.io/mermaid-live-editor/)も有る。
+
+#### [iTyped.js](https://github.com/luisvinicius167/ityped)
+タイプライターのように一文字ずつ文字を表示できるライブラリ。
