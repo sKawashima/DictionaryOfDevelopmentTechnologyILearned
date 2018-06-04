@@ -128,3 +128,7 @@ ___________.___  ________.__          __          __
 
 #### [iTyped.js](https://github.com/luisvinicius167/ityped)
 タイプライターのように一文字ずつ文字を表示できるライブラリ。
+
+#### [ZOOM.JS](https://github.com/fat/zoom.js)
+画像をモーダル的に拡大表示するためのライブラリ。
+非常にシンプルに使える。
