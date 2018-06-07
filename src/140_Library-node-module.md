@@ -38,6 +38,12 @@ Vue.jsの開発環境テンプレートが簡単にDLできるコマンドツー
 `$`を用いて何でも書けるようになる。
 ただし、モダン環境（モジュールバンドラなどを用いる環境）では`import`の仕方に注意が必要。
 
+#### [AMP](https://ampbyexample.com/#)
+⚡**Accelerated Mobile Pages**の略。
+Webをモバイル端末での閲覧を前提に最適化するための技術。
+指定されたHTMLの書き方とJSの挿入を行って実装する。
+(使用できるタグが制限される)[https://qiita.com/fgkm/items/4fa77e94781a6d8c7a82]ことに注意。
+
 ### Simple library
 #### Axios
 シンプルな非同期通信モジュール。
