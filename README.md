@@ -104,7 +104,7 @@
       - [Minigrid](#minigrid)
     + [SMF/Midi関連](#smfmidi%E9%96%A2%E9%80%A3)
       - [Tone.js](#tonejs)
-      - [MidiWriterJS](#midiwriterjs)
+      - [midi-writer-js](#midi-writer-js)
 - [Web back-end](#web-back-end)
   * [Ruby](#ruby)
     + [Ruby on Rails](#ruby-on-rails)
@@ -476,7 +476,7 @@ ___________.___  ________.__          __          __
 #### Tone.js
 Web Audio APIを簡単に扱うためのモジュール。音を生成しながら鳴らすことができる。
 
-#### MidiWriterJS
+#### [midi-writer-js](https://www.npmjs.com/package/midi-writer-js)
 フロント側でMidiファイルを生成、`base64`経由で出力することが出来るライブラリ。
 
 # Web back-end
