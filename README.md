@@ -551,7 +551,7 @@ WebページをそのままGUIとしてアプリケーションを制作する�
 テキストエディタのAtomやVSCodeなどはこれで作られている。
 Mac, Windows, Linuxのそれぞれのためのアプリケーションで出力することができる。
 
-### [Vue Native](https://github.com/GeekyAnts/vue-native-core)
+### [Vue Native](https://vue-native.io/)
 Vueを使ったネイティブアプリ開発環境。
 様々な開発環境が簡単に揃う。
 React Nativeへの対抗かつ、優秀。
