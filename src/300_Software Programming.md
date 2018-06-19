@@ -7,6 +7,11 @@ WebページをそのままGUIとしてアプリケーションを制作する�
 テキストエディタのAtomやVSCodeなどはこれで作られている。
 Mac, Windows, Linuxのそれぞれのためのアプリケーションで出力することができる。
 
+### [Vue Native](https://github.com/GeekyAnts/vue-native-core)
+Vueを使ったネイティブアプリ開発環境。
+様々な開発環境が簡単に揃う。
+React Nativeへの対抗かつ、優秀。
+
 ### [Nativefier](https://github.com/jiahaog/nativefier)
 既存WebサイトをElectronネイティブアプリ化するためのCLIツール。
 一行のコマンドで制作できてしまうことが非常に便利。

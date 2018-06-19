@@ -123,6 +123,7 @@
 - [Software Programming](#software-programming)
   * [Node.js](#nodejs-1)
     + [Electron](#electron)
+    + [Vue Native](#vue-native)
     + [Nativefier](#nativefier)
     + [CLI開発補助node module](#cli%E9%96%8B%E7%99%BA%E8%A3%9C%E5%8A%A9node-module)
       - [clear](#clear)
@@ -549,6 +550,11 @@ JavaScript記法で様々な開発ができる開発環境。ライブラリが�
 WebページをそのままGUIとしてアプリケーションを制作することができるフレームワーク。
 テキストエディタのAtomやVSCodeなどはこれで作られている。
 Mac, Windows, Linuxのそれぞれのためのアプリケーションで出力することができる。
+
+### [Vue Native](https://github.com/GeekyAnts/vue-native-core)
+Vueを使ったネイティブアプリ開発環境。
+様々な開発環境が簡単に揃う。
+React Nativeへの対抗かつ、優秀。
 
 ### [Nativefier](https://github.com/jiahaog/nativefier)
 既存WebサイトをElectronネイティブアプリ化するためのCLIツール。
