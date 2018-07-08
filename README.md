@@ -103,6 +103,7 @@
       - [iTyped.js](#itypedjs)
       - [ZOOM.JS](#zoomjs)
       - [Minigrid](#minigrid)
+      - [Barba.js](#barbajs)
     + [SMF/Midi関連](#smfmidi%E9%96%A2%E9%80%A3)
       - [Tone.js](#tonejs)
       - [midi-writer-js](#midi-writer-js)
@@ -481,6 +482,11 @@ ___________.___  ________.__          __          __
 #### [Minigrid](http://minigrid.js.org/)
 カード型レイアウトを実装する2KBのライブラリ。
 実装は親を指定するだけなので、ポートフォリオサイトへの有力な採用候補。
+
+#### [Barba.js](http://barbajs.org/)
+非同期通信を用いた高速ページ遷移を簡単に実装するライブラリ。
+指定されたidとclassを充てるだけで実装できる。
+しかし、範囲内のリンクでは対応しない模様。
 
 ### SMF/Midi関連
 #### Tone.js
