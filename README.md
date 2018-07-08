@@ -62,6 +62,7 @@
     + [Module Bundler](#module-bundler)
       - [Parcel](#parcel)
       - [Webpack](#webpack)
+      - [Browserify](#browserify)
     + [Converter](#converter)
       - [pug](#pug)
       - [node-sass](#node-sass)
@@ -158,6 +159,9 @@
   * [fish](#fish)
   * [bash](#bash)
   * [zsh](#zsh)
+- [Other](#other)
+  * [terminal](#terminal)
+    + [Hyper](#hyper)
 - [til](#til)
 
 <!-- tocstop -->
@@ -301,6 +305,11 @@ Adobeの人達が作っている。
 やたら流行っている。
 `webpack-dev-server`がモジュールバンドラーの役割をこなすことも有り、非常に便利。
 最近その光景である`webpack-server`が登場しつつある。
+
+#### Browserify
+モジュールバンドラの先駆けにして実質下位互換。
+元々はNode.js記法（'require'など）をブラウザが実行できる形に変換することを目的に作られた。
+現状はタスクランナーとしての機能を内包するWebpackによってほぼ影が無い。
 
 ### Converter
 #### pug
@@ -667,6 +676,12 @@ Mac標準の`Basic Shell`。
 インターンで知った強いShell。
 ただし、使おうとしたらより新しいfishを見つけてしまい二度と触ることがなさそう。
 
+# Other
+## terminal
+### Hyper
+Electron製のターミナルソフトウェア。
+JSでプラグインが制作できるなど、拡張性が非常に高い。
+しかし、環境によっては日本語入力やfishなどでバグが発生する。
 
 
 # til
