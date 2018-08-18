@@ -7,6 +7,13 @@ WebページをそのままGUIとしてアプリケーションを制作する�
 テキストエディタのAtomやVSCodeなどはこれで作られている。
 Mac, Windows, Linuxのそれぞれのためのアプリケーションで出力することができる。
 
+### [NW.js](https://nwjs.io/)
+ウィンドウ管理を簡略化したElectronのようなフレームワーク。
+HTMLファイル側にNode.jsの実装を記載でき、使いやすそう。
+
+- [NW.jsでデスクトップアプリの夢を見る！ - Qiita](https://qiita.com/Minimum-Opus/items/b28b528a9c34ad21599e)
+
+
 ### [Vue Native](https://vue-native.io/)
 Vueを使ったネイティブアプリ開発環境。
 様々な開発環境が簡単に揃う。

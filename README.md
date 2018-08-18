@@ -125,6 +125,7 @@
 - [Software Programming](#software-programming)
   * [Node.js](#nodejs-1)
     + [Electron](#electron)
+    + [NW.js](#nwjs)
     + [Vue Native](#vue-native)
     + [Nativefier](#nativefier)
     + [CLI開発補助node module](#cli%E9%96%8B%E7%99%BA%E8%A3%9C%E5%8A%A9node-module)
@@ -565,6 +566,13 @@ JavaScript記法で様々な開発ができる開発環境。ライブラリが�
 WebページをそのままGUIとしてアプリケーションを制作することができるフレームワーク。
 テキストエディタのAtomやVSCodeなどはこれで作られている。
 Mac, Windows, Linuxのそれぞれのためのアプリケーションで出力することができる。
+
+### [NW.js](https://nwjs.io/)
+ウィンドウ管理を簡略化したElectronのようなフレームワーク。
+HTMLファイル側にNode.jsの実装を記載でき、使いやすそう。
+
+- [NW.jsでデスクトップアプリの夢を見る！ - Qiita](https://qiita.com/Minimum-Opus/items/b28b528a9c34ad21599e)
+
 
 ### [Vue Native](https://vue-native.io/)
 Vueを使ったネイティブアプリ開発環境。
