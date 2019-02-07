@@ -18,6 +18,10 @@ SQLで行うような操作をより直感的に行える。
 Ruby on Railsが開発している。
 - [ActiveRecord入門 - Qiita](https://qiita.com/kimioka0/items/8c10e01def23fdbf3aa6)
 
+#### [fae](https://github.com/wearefine/fae)
+RailsのためのシンプルなCMSフレームワーク。
+いつか使って見る日が来るかもしれない。
+
 ## PHP
 HTMLを拡張するような形で動的サイトを記述できる。
 早い。

@@ -111,6 +111,7 @@
   * [Ruby](#ruby)
     + [Ruby on Rails](#ruby-on-rails)
       - [Active Record](#active-record)
+      - [fae](#fae)
   * [PHP](#php)
     + [Wordpress](#wordpress)
       - [Advanced Custom Fields](#advanced-custom-fields)
@@ -515,6 +516,10 @@ Ruby on Railsで生成されるデータベース郡を操作するための記�
 SQLで行うような操作をより直感的に行える。
 Ruby on Railsが開発している。
 - [ActiveRecord入門 - Qiita](https://qiita.com/kimioka0/items/8c10e01def23fdbf3aa6)
+
+#### [fae](https://github.com/wearefine/fae)
+RailsのためのシンプルなCMSフレームワーク。
+いつか使って見る日が来るかもしれない。
 
 ## PHP
 HTMLを拡張するような形で動的サイトを記述できる。

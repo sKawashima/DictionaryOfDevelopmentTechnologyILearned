@@ -4,7 +4,7 @@
   "main": "none",
   "repository": "https://github.com/sKawashima/DictionaryOfDevelopmentTechnologyILearned.git",
   "author": "Shota Kawashima <bysk.333@gmail.com>",
-  "license": "Private",
+  "license": "UNLICENSED",
   "private": false,
   "dependencies": {
     "gulp": "^3.9.1",
